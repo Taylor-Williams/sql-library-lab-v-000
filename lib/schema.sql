@@ -1,4 +1,4 @@
-CREATE TABLE series(id INTEGER PRIMARY KEY, title TEXT, author_id INTEGER, sub_genre_id TEXT);
+CREATE TABLE series(id INTEGER PRIMARY KEY, title TEXT, author_id INTEGER, subgenre_id TEXT);
 CREATE TABLE subgenres(id INTEGER PRIMARY KEY, name TEXT);
 CREATE TABLE Authors have a name
 Books have a title and year and belong to a series
